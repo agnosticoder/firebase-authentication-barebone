@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase Authentication Barebone</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>This is Firebase Authentication BareBone </h1>
+
+    <div class="from">
+        <input type="email" name="email" placeholder="Email" id="email">
+        <input type="password" name="password"  placeholder="Password" id="password">
+        <button class="btn-login hide">Login</button>
+        <button class="btn-signup hide">Sign Up</button>
+        <button class="btn-logout hide">Log out</button>
+    </div>
+
+
+    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+
+
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-auth.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
